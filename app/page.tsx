@@ -30,8 +30,8 @@ export default function Home() {
   };
 
   return (
-    <main className='mb-10 max-w-7xl m-auto'>
-      <div className='container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4  justify-items-center'>
+    <main className='mb-10 container m-auto'>
+      <div className=' mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4  justify-items-center'>
         {currentProducts.length === 0 ? (
           isLoading ? (
             <p className='text-center text-gray-500'>Loading...</p>

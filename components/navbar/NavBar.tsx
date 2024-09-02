@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className='bg-white shadow-md p-4' aria-label='Main Navigation'>
-      <div className='max-w-7xl container mx-auto flex flex-col md:flex-row items-center justify-between'>
+      <div className='container mx-auto flex flex-col md:flex-row items-center justify-between'>
         <div className='flex items-center justify-between w-full md:w-auto'>
           <span
             onClick={() => push('/')}

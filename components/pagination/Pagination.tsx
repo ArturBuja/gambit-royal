@@ -58,7 +58,7 @@ const Pagination: React.FC<PaginationProps> = ({
   };
 
   return (
-    <div className='flex justify-center gap-2 mt-4'>
+    <div className='flex justify-center mt-4'>
       {generatePageNumbers().map((page, index) => (
         <button
           key={index}
