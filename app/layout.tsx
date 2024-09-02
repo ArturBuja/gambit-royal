@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Gambit Royal',
     description: 'Gambit Royal recruitment test',
-    url: 'http://localhost:3000/',
+    url: 'https://gambit-royal.vercel.app/',
     siteName: 'Gambit Royal',
   },
   authors: [
@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        <link rel='canonical' href='http://localhost:3000/' />
+        <link rel='canonical' href='https://gambit-royal.vercel.app/' />
       </head>
       <body className={inter.className}>
         <FilterProvider>

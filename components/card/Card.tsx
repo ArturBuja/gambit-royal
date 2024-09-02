@@ -9,7 +9,7 @@ function Card({ ...product }: IProduct) {
   const ratingValue = Math.round(+product.rating / 2);
 
   return (
-    <div className='max-w-xs flex flex-col justify-between rounded-lg overflow-hidden shadow-lg bg-white'>
+    <div className='max-w-xs flex flex-col rounded-lg overflow-hidden shadow-lg bg-white'>
       <div className={`relative w-full h-48 ${!product.active && 'grayscale'}`}>
         <Image
           className='w-full h-full object-cover'
